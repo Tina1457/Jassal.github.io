@@ -1,0 +1,145 @@
+body {
+	background-image: url('Background_redpurple.webp');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}/* Background image for the website */
+
+/* ----------HTML & BODY OF THE WEBSITE------------------------------------------------------------------- */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* ----------NAVIGATION BAR------------------------------------------------------------------- */
+
+/* Navigation bar in css */
+.navbar img {
+	border-radius:10%;
+	align-items: center;
+    background-color:transparent;
+    padding: 20px 10px;
+	height: 160px; /* Adjust height as needed */
+	width:600px;
+	margin: 0 auto;
+	position: absolute;
+	left:calc((100% - 600px) / 2);
+	z-index: 100000;
+}
+
+
+
+/* ----------MAP------------------------------------------------------------------- */
+/* Map container for the map locations */
+map.container{
+	margin:center;
+
+}
+
+
+/* -----------HEADINGS------------------------------------------------------------------ */
+
+/* All the headings in css */
+.header1{ /* Centers both horizontally and vertically */     /* Full viewport height */
+	text-align:center;
+	color:white;
+	font-size:18px;
+	font-family:Verdana;
+	margin-bottom:0;
+	padding-top:300px;
+	padding-bottom:0px;
+}
+	
+
+
+
+
+
+
+
+/* -----------TABLE LOCATIONS------------------------------------------------------------------ */
+/* Table for the websites of Jassal signs 
+	Should add colors red, blue, white*/
+	
+table {
+	margin-top:0;
+}	
+	
+	
+	
+.table-locations {
+    border: 0px solid black;
+    border-collapse: flex;
+	border-color:white;
+	font-size:65px;
+	width:100px;
+	height:100px;
+	margin-left:2px;
+	padding:1.2rem;
+	
+  }
+ .table-locations th {
+    border: 3px solid black;
+	font-size:20px;
+	font-family:Helvetica;
+	text-align:center;
+	border-color:black;
+	background-color:#00008B;
+	border-radius:30%;
+	margin-left:auto;
+	margin-right:auto;
+	padding:1.25rem;
+  }
+  
+.table-locations td {
+    border: 0px solid black;
+    border-collapse: flex;
+	border-color:blue;
+	font-size:20px;
+	text-align:center;
+	padding:0.2rem;
+ }
+
+
+/* ------------LINKS------------------------------------------------------------------ */
+
+/* This is for the links */
+.a {
+	display: inline;
+	margin-right:30px;
+	border-radius:50%;
+}
+
+a:link {
+	color:white
+}
+
+a:visited {
+	color:white
+}
+
+a:active {
+	color:white
+}
+
+
+
+/* -----------DROP BUTTON------------------------------------------------------------------ */
+/* Footer */
+.footer {
+  padding: 30px;
+  color:white;
+  text-align: left;
+  font-family:Arial;
+  background: black;
+  margin-top: 5px;
+}
+
+h2 {
+	font-size:16px;
+	
+}
